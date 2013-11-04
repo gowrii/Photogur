@@ -27,7 +27,7 @@ class PicturesController < ApplicationController
 	end
 
 	def picture1
-		@picture1 = { 
+		@picture = { 
 				:title 	=> "Sea Power",
 				:artist => "Stephen Scullion",
 				:url 	=> "http://monicao.s3.amazonaws.com/bitmaker/wave.jpg"
